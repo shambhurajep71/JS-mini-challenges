@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-align: center;
+}
+.bmicalc {
+    display: flex;
+    background-color: gray;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    flex-direction: column;
+}
+.height {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.weight {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+#height_in_cm {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    width: 500px ;
+    height: 30px;
+    text-align: left !important;
+    
+}
+#weight_in_kg {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    width: 500px ;
+    height: 30px;
+    text-align: left !important;
+}
+
+.calculate {
+    display: flex;
+    height: 50px;
+    background-color: greenyellow;
+    width: 130px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(9, 9, 9);
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.yourBMI {
+    font-size: 30px;
+    font-weight: bold;
+}
+.displayBMI{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
